@@ -27,7 +27,7 @@ It automatically analyzes pull requests, identifies bugs, code smells, and impro
 ---
 
 ## 📦 Project Structure
-<pre> ```text DevBuddy/ 
+<pre>  DevBuddy/ 
   ├── app.py # Main Flask app 
   ├── .env # Environment variables (never commit this) 
   ├── routes/ 
@@ -36,7 +36,7 @@ It automatically analyzes pull requests, identifies bugs, code smells, and impro
   │   └── ai_review.py # Code that connects to OpenAI 
   ├── utils/ 
   │   └── github_api.py # Helpers to fetch diffs and post PR comments 
-  └── requirements.txt # Python dependencies ``` </pre>
+  └── requirements.txt # Python dependencies  </pre>
 
 ---
 
